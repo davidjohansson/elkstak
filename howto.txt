@@ -1,0 +1,12 @@
+*Kibana
+http://ec2-52-59-245-42.eu-central-1.compute.amazonaws.com:5601/
+
+*Logstash:
+sudo vim /etc/logstash/conf.d/10-syslog.conf
+tail -f /var/log/logstash/logstash.stdout &
+tail -f /var/log/logstash/logstash.err
+sudo service logstash restart
+
+*Slack:
+I kanalen training:
+/training mage=123 apa=456b
