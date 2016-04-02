@@ -23,3 +23,6 @@ curl -H "content-type: application/json" -XPOST 'http://52.59.245.42:31311' -d '
 
 
 curl  -XPOST "http://52.59.245.42:31311" -d "timestamp=2015-02-09&message="text=brost%3D108+mage%3D87.5+vikt%3D87.6+nacke%3D43+fett%3D15.27+fett2%3D14+a%3D"
+
+
+5601: basic auth
